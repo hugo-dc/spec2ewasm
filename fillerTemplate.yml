@@ -12,10 +12,12 @@
       code: ''
       nonce: '0'
       storage: {}
+# module compiled from wast code:
+#
+{wast}
     b94f5374fce5edbc8e2a8697c15331677e6ebf0b:
       balance: '100000000000'
-      code: |
-{module}
+      code: '{module}'
       nonce: ''
       storage: {}
   expect:
@@ -41,3 +43,5 @@
     to: 'b94f5374fce5edbc8e2a8697c15331677e6ebf0b'
     value:
     - '0'
+
+
